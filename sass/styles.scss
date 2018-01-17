@@ -1,0 +1,40 @@
+*{
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; align-items: center;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px; 
+}
+
+#navBar {
+    background-color: rgb(44, 43, 51);
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+#random, #myBoards, #getApp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    background-color: rgb(44, 43, 51);
+    width: 16%;
+    height: 20px;
+    color: white;
+}
